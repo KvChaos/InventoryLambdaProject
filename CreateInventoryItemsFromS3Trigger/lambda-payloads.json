@@ -1,0 +1,42 @@
+{
+    "CreateInventoryItemsFromS3Trigger": {
+        "lambda": {
+            "Records": [
+                {
+                    "eventVersion": "2.1",
+                    "eventSource": "aws:s3",
+                    "awsRegion": "us-east-1",
+                    "eventTime": "2019-02-17T22:50:26.047Z",
+                    "eventName": "ObjectCreated:Put",
+                    "userIdentity": {
+                        "principalId": "AWS:AIDAJL7NDJM6CRSF2CIOQ"
+                    },
+                    "requestParameters": {
+                        "sourceIPAddress": "76.106.36.60"
+                    },
+                    "responseElements": {
+                        "x-amz-request-id": "7E5E4BE2A5E7FAC5",
+                        "x-amz-id-2": "U6FpY3YofWC/2PiTX84WLXL8ALNBeGNSv32Sg2AxVKw1FhjteMvQGZ7ER7xABhE3k8azDlpqweU="
+                    },
+                    "s3": {
+                        "s3SchemaVersion": "1.0",
+                        "configurationId": "NotifyLambdaOfInventoryCreate",
+                        "bucket": {
+                            "name": "cinventory",
+                            "ownerIdentity": {
+                                "principalId": "A1LE32MN3B0HZO"
+                            },
+                            "arn": "arn:aws:s3:::cinventory"
+                        },
+                        "object": {
+                            "key": "data01.txt",
+                            "size": 66,
+                            "eTag": "fcff77b88b1737635b68c65740718cf5",
+                            "sequencer": "005C69E53200D18F98"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

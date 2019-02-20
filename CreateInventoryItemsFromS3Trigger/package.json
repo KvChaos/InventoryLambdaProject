@@ -1,0 +1,20 @@
+{
+  "name": "createinventoryitemsfroms3trigger",
+  "version": "1.0.0",
+  "description": "Lambda function to insert data into the inventory DynamoDB table based on files uploaded into an S3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lambda",
+    "dynamodb"
+  ],
+  "author": "Cory Newby",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.404.0",
+    "bluebird": "^3.5.3",
+    "csvtojson": "^2.0.8"
+  }
+}

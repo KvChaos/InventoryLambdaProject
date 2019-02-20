@@ -1,0 +1,10 @@
+{
+    "DeploymentMethod": "lambda",
+    "Functions": {
+        "CreateInventoryItemsFromS3Trigger": {
+            "PhysicalId": {
+                "us-east-1": "CreateInventoryItemsFromS3Trigger"
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "getallinventoryitems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lambda"
+  ],
+  "author": "Cory Newby",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.3"
+  }
+}
